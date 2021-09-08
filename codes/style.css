@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*----------------google image-----------------*/
+img{
+  max-width: 80px;
+  max-height: 40px;
+}
+/*----------------main box--------------------*/
+.main{
+  width: 440px;
+  height: 500px;
+  border: 0.5px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 40px;
+  margin-left: 34%;
+}
+h1{
+  font-size: 22px;
+  padding-top: 15px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 0.9;
+}
+h3{
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: normal;
+  opacity: 0.9;
+}
+/*--------------------input box-------------------*/
+.before-fieldset{
+  float: left;
+  margin-top: 30px;
+  outline: none;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+  margin-left: 43px;
+  width: 80%;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 4px;
+  font-size: 17px;
+}
+.before-fieldset:focus{
+  border: 2px solid dodgerblue;
+  width: 80%;
+  height: 50px;
+}
+/*------------------------------------------*/
+.link{
+  float: left;
+  font-size: 14px;
+  margin-left: 43px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+span{
+  float: left;
+  margin-left: 43px;
+  margin-top: 50px;
+  font-size: 13.5px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.link-1{
+  float: left;
+  margin-left: -75px;
+  margin-top: 70px;
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn{
+  width: 70px;
+  height: 40px;
+  float: right;
+  margin-top: 60px;
+  outline: none;
+  margin-right: 45px;
+  background-color: dodgerblue;
+  color: #FFFFFF;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*----------------box ends---------------*/
+.footer{
+  margin-top: 20px;
+  width: 440px;
+  height: 50px;
+  margin-left: 34%;
+  font-size: 12px;
+}
+.link-2{
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.9;
+}
+.link-3{
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.7;
+  padding-left: 35px;
+  float: right;
+}
