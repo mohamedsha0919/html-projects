@@ -1,0 +1,16 @@
+body{
+	background-color: #FFFFFF;
+}
+.clock{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	font-size: 60px;
+	font-family: orbitron;
+	letter-spacing: 7px;
+	color: #000000;
+	padding: 10px;
+	background-color: #FFFFFF;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: -10;
+}
